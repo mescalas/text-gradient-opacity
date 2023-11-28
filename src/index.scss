@@ -1,0 +1,20 @@
+/* Webfont: Lemon-Wide */@font-face {
+  font-family: 'Lemon';
+  src: url('../public/fonts/lemon/Lemon-Wide.woff') format('woff'), /* Modern Browsers */
+  url('../public/fonts/lemon/Lemon-Wide.woff2') format('woff2'), /* Modern Browsers */
+  url('../public/fonts/lemon/Lemon-Wide.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  background-color: hsl(0, 0%, 6%);
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Lemon', sans-serif;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
